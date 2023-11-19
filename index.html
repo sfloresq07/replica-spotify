@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/641b5da981.js" crossorigin="anonymous"></script>
+    <title>Spotify</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="w-full h-20">
+        <nav class="flex justify-around items-center w-full h-20 bg-black">
+            <div class="pl-64  w-2/5">
+                <a href="" class="text-white w-1/2	"><i class="fa-brands fa-spotify text-3xl"
+                        style="color: #ffffff;"></i> <span class="ml-1 text-2xl">Spotify</span></a>
+            </div>
+            <div class="flex justify-evenly items-center w-full">
+                <ul class="flex items-center justify-start m-auto">
+                    <li class="m-5 text-white hover:text-[#1ed760]">
+                        <a href="#">Premium</a>
+                    </li>
+                    <li class="m-5 text-white hover:text-[#1ed760]">
+                        <a href="#">Ayuda</a>
+                    </li>
+                    <li class="m-5 text-white hover:text-[#1ed760]">
+                        <a href="#">Descargar</a>
+                    </li>
+                    <li class="m-5 text-white">
+                        <a href="#">|</a>
+                    </li>
+
+                </ul>
+                <div class="h-10 left-[1235px] flex justify-center flex gap-4 absolute">
+                    <img src="./assets/perfil.jpg" class="rounded-full">
+                    <div class="flex items-center">
+                        <a href="#" class="text-white hover:text-[#1ed760]">
+                            Perfil <i class="fa-solid fa-chevron-down" style="color: #ffffff;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="w-full h-[480px] bg-gradient-to-b from-blue-950 via-slate-900 to-black top-[80px] absolute">
+
+            <div class="flex justify-between">
+                <div class="flex justify-center flex flex-col ml-auto flex gap-4">
+                    <div class="flex gap-4 flex flex-col">
+                        <h1 class="w-[523px] h-[45px] text-white text-[37px] font-bold font-['Inter']">Escuchá música
+                            sin límites</h1>
+                        <p class="w-[523px] h-[66px] text-white text-[21px] font-bold font-['Inter']">Reproducí millones
+                            de canciones sin anuncios, on-demand y en modo offline.</p>
+                    </div>
+                    <div class="flex gap-4">
+                        <button
+                            class="w-[130px] h-[50px] left-0 top-0 bg-blue-500 rounded-[70px] transition-transform transform hover:scale-105 font-bold">Empezar</button>
+                        <button
+                            class="w-[130px] h-[50px] left-0 top-0 bg-blue-800 bg-opacity-0 rounded-[70px] border-2 border-white transition-transform transform hover:scale-105 font-bold text-white">Ver
+                            Planes</button>
+                    </div>
+                    <div>
+                        <a href="#" class="w-[286px] h-[26px] text-zinc-100 text-[15px] font-bold font-['Inter']">Se
+                            aplican Términos y Condiciones.</a>
+                    </div>
+                </div>
+                <img class="w-2/4 h-[480px] " src="./assets/desktop-album-evergreen-1x.png" />
+            </div>
+        </div>
+        <div class="flex justify-center flex-col">
+            <div>
+                <h2 class="w-[591px] h-[86px] text-black text-[50px] font-bold font-['Inter']">Beneficios de Premium</h2>
+            </div>
+            <div>
+                <div>
+                    <img src="#" alt="">
+                    <p>Descargá tu música.</p>
+                    <p>Escuchala donde quieras.</p>
+                </div>
+                <div>
+                    <img src="#" alt="">
+                    <p>Escuchá música sin anuncios.</p>
+                    <p>Disfrutá de tu música sin interrupciones.</p>
+                </div>
+                <div>
+                    <img src="#" alt="">
+                    <p>Escuchá la canción que quieras.</p>
+                    <p>Incluso en dispositivos móviles.</p>
+                </div>
+                <div>
+                    <img src="#" alt="">
+                    <p>Saltos ilimitados de canciones.</p>
+                    <p>Solo pasá a la siguiente.</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>
